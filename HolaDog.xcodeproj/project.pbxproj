@@ -13,6 +13,7 @@
 		F80E0BD51A53A20E0096EDC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BD41A53A20E0096EDC9 /* Images.xcassets */; };
 		F80E0BD81A53A20E0096EDC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BD61A53A20E0096EDC9 /* LaunchScreen.xib */; };
 		F80E0BE41A53A20E0096EDC9 /* HolaDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0BE31A53A20E0096EDC9 /* HolaDogTests.swift */; };
+		F80E0BF01A53A4C30096EDC9 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BEF1A53A4C30096EDC9 /* dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F80E0BDD1A53A20E0096EDC9 /* HolaDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80E0BE21A53A20E0096EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80E0BE31A53A20E0096EDC9 /* HolaDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaDogTests.swift; sourceTree = "<group>"; };
+		F80E0BEF1A53A4C30096EDC9 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = ../../../../Downloads/dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F80E0BCA1A53A20E0096EDC9 /* HolaDog */,
 				F80E0BE01A53A20E0096EDC9 /* HolaDogTests */,
 				F80E0BC91A53A20E0096EDC9 /* Products */,
+				F80E0BEF1A53A4C30096EDC9 /* dog.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80E0BF01A53A4C30096EDC9 /* dog.jpg in Resources */,
 				F80E0BD31A53A20E0096EDC9 /* Main.storyboard in Resources */,
 				F80E0BD81A53A20E0096EDC9 /* LaunchScreen.xib in Resources */,
 				F80E0BD51A53A20E0096EDC9 /* Images.xcassets in Resources */,
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = HolaDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = HolaDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
