@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80E0BCE1A53A20E0096EDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0BCD1A53A20E0096EDC9 /* AppDelegate.swift */; };
+		F80E0BD01A53A20E0096EDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0BCF1A53A20E0096EDC9 /* ViewController.swift */; };
+		F80E0BD31A53A20E0096EDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BD11A53A20E0096EDC9 /* Main.storyboard */; };
+		F80E0BD51A53A20E0096EDC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BD41A53A20E0096EDC9 /* Images.xcassets */; };
+		F80E0BD81A53A20E0096EDC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80E0BD61A53A20E0096EDC9 /* LaunchScreen.xib */; };
+		F80E0BE41A53A20E0096EDC9 /* HolaDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0BE31A53A20E0096EDC9 /* HolaDogTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80E0BDE1A53A20E0096EDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80E0BC01A53A20E0096EDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80E0BC71A53A20E0096EDC9;
+			remoteInfo = HolaDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80E0BC81A53A20E0096EDC9 /* HolaDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80E0BCC1A53A20E0096EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80E0BCD1A53A20E0096EDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80E0BCF1A53A20E0096EDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80E0BD21A53A20E0096EDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80E0BD41A53A20E0096EDC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F80E0BD71A53A20E0096EDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F80E0BDD1A53A20E0096EDC9 /* HolaDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80E0BE21A53A20E0096EDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80E0BE31A53A20E0096EDC9 /* HolaDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaDogTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80E0BC51A53A20E0096EDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80E0BDA1A53A20E0096EDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80E0BBF1A53A20E0096EDC9 = {
+			isa = PBXGroup;
+			children = (
+				F80E0BCA1A53A20E0096EDC9 /* HolaDog */,
+				F80E0BE01A53A20E0096EDC9 /* HolaDogTests */,
+				F80E0BC91A53A20E0096EDC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80E0BC91A53A20E0096EDC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80E0BC81A53A20E0096EDC9 /* HolaDog.app */,
+				F80E0BDD1A53A20E0096EDC9 /* HolaDogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80E0BCA1A53A20E0096EDC9 /* HolaDog */ = {
+			isa = PBXGroup;
+			children = (
+				F80E0BCD1A53A20E0096EDC9 /* AppDelegate.swift */,
+				F80E0BCF1A53A20E0096EDC9 /* ViewController.swift */,
+				F80E0BD11A53A20E0096EDC9 /* Main.storyboard */,
+				F80E0BD41A53A20E0096EDC9 /* Images.xcassets */,
+				F80E0BD61A53A20E0096EDC9 /* LaunchScreen.xib */,
+				F80E0BCB1A53A20E0096EDC9 /* Supporting Files */,
+			);
+			path = HolaDog;
+			sourceTree = "<group>";
+		};
+		F80E0BCB1A53A20E0096EDC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80E0BCC1A53A20E0096EDC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F80E0BE01A53A20E0096EDC9 /* HolaDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80E0BE31A53A20E0096EDC9 /* HolaDogTests.swift */,
+				F80E0BE11A53A20E0096EDC9 /* Supporting Files */,
+			);
+			path = HolaDogTests;
+			sourceTree = "<group>";
+		};
+		F80E0BE11A53A20E0096EDC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80E0BE21A53A20E0096EDC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80E0BC71A53A20E0096EDC9 /* HolaDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80E0BE71A53A20E0096EDC9 /* Build configuration list for PBXNativeTarget "HolaDog" */;
+			buildPhases = (
+				F80E0BC41A53A20E0096EDC9 /* Sources */,
+				F80E0BC51A53A20E0096EDC9 /* Frameworks */,
+				F80E0BC61A53A20E0096EDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaDog;
+			productName = HolaDog;
+			productReference = F80E0BC81A53A20E0096EDC9 /* HolaDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80E0BDC1A53A20E0096EDC9 /* HolaDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80E0BEA1A53A20E0096EDC9 /* Build configuration list for PBXNativeTarget "HolaDogTests" */;
+			buildPhases = (
+				F80E0BD91A53A20E0096EDC9 /* Sources */,
+				F80E0BDA1A53A20E0096EDC9 /* Frameworks */,
+				F80E0BDB1A53A20E0096EDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80E0BDF1A53A20E0096EDC9 /* PBXTargetDependency */,
+			);
+			name = HolaDogTests;
+			productName = HolaDogTests;
+			productReference = F80E0BDD1A53A20E0096EDC9 /* HolaDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80E0BC01A53A20E0096EDC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Byron Jay Inocencio";
+				TargetAttributes = {
+					F80E0BC71A53A20E0096EDC9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F80E0BDC1A53A20E0096EDC9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F80E0BC71A53A20E0096EDC9;
+					};
+				};
+			};
+			buildConfigurationList = F80E0BC31A53A20E0096EDC9 /* Build configuration list for PBXProject "HolaDog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80E0BBF1A53A20E0096EDC9;
+			productRefGroup = F80E0BC91A53A20E0096EDC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80E0BC71A53A20E0096EDC9 /* HolaDog */,
+				F80E0BDC1A53A20E0096EDC9 /* HolaDogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80E0BC61A53A20E0096EDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80E0BD31A53A20E0096EDC9 /* Main.storyboard in Resources */,
+				F80E0BD81A53A20E0096EDC9 /* LaunchScreen.xib in Resources */,
+				F80E0BD51A53A20E0096EDC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80E0BDB1A53A20E0096EDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80E0BC41A53A20E0096EDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80E0BD01A53A20E0096EDC9 /* ViewController.swift in Sources */,
+				F80E0BCE1A53A20E0096EDC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80E0BD91A53A20E0096EDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80E0BE41A53A20E0096EDC9 /* HolaDogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80E0BDF1A53A20E0096EDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80E0BC71A53A20E0096EDC9 /* HolaDog */;
+			targetProxy = F80E0BDE1A53A20E0096EDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80E0BD11A53A20E0096EDC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80E0BD21A53A20E0096EDC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80E0BD61A53A20E0096EDC9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80E0BD71A53A20E0096EDC9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80E0BE51A53A20E0096EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80E0BE61A53A20E0096EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80E0BE81A53A20E0096EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F80E0BE91A53A20E0096EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F80E0BEB1A53A20E0096EDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolaDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaDog.app/HolaDog";
+			};
+			name = Debug;
+		};
+		F80E0BEC1A53A20E0096EDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolaDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaDog.app/HolaDog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80E0BC31A53A20E0096EDC9 /* Build configuration list for PBXProject "HolaDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80E0BE51A53A20E0096EDC9 /* Debug */,
+				F80E0BE61A53A20E0096EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80E0BE71A53A20E0096EDC9 /* Build configuration list for PBXNativeTarget "HolaDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80E0BE81A53A20E0096EDC9 /* Debug */,
+				F80E0BE91A53A20E0096EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F80E0BEA1A53A20E0096EDC9 /* Build configuration list for PBXNativeTarget "HolaDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80E0BEB1A53A20E0096EDC9 /* Debug */,
+				F80E0BEC1A53A20E0096EDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80E0BC01A53A20E0096EDC9 /* Project object */;
+}
